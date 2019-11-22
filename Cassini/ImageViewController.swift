@@ -29,7 +29,7 @@ class ImageViewController: UIViewController , UIScrollViewDelegate{
             scrollView.contentSize = imageView.frame.size
         }
     }
-    
+    var cool = [Int]()
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         if image == nil {
