@@ -30,7 +30,7 @@ class ImageViewController: UIViewController , UIScrollViewDelegate{
             Spinner?.stopAnimating()
         }
     }
-    var cool = [Int]()
+    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         if image == nil {

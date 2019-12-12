@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF3847742383B3D500A3317C /* DemoURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3847732383B3D500A3317C /* DemoURLs.swift */; };
+		EF36ADE323A2830100A557E9 /* DemoURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF36ADE223A2830100A557E9 /* DemoURLs.swift */; };
+		EF36ADE523A2830B00A557E9 /* oval.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF36ADE423A2830B00A557E9 /* oval.jpg */; };
 		EF47740B238376B900686586 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF47740A238376B900686586 /* AppDelegate.swift */; };
 		EF477410238376B900686586 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF47740E238376B900686586 /* Main.storyboard */; };
 		EF477412238376BB00686586 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF477411238376BB00686586 /* Assets.xcassets */; };
 		EF477415238376BB00686586 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF477413238376BB00686586 /* LaunchScreen.storyboard */; };
 		EF47741F23837A6000686586 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF47741E23837A6000686586 /* ImageViewController.swift */; };
-		EF477421238384E100686586 /* oval.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF477420238384E100686586 /* oval.jpg */; };
 		EFE855B32388F1620025D58F /* CassiniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE855B22388F1620025D58F /* CassiniViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EF3847732383B3D500A3317C /* DemoURLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoURLs.swift; sourceTree = "<group>"; };
+		EF36ADE223A2830100A557E9 /* DemoURLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DemoURLs.swift; path = "../../all assigns/Lecture-9-ViewController-LifeCycle-and-ScrollViews-master 1/Lecture 9 - Cassini/DemoURLs.swift"; sourceTree = "<group>"; };
+		EF36ADE423A2830B00A557E9 /* oval.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = oval.jpg; path = "../../all assigns/Lecture-9-ViewController-LifeCycle-and-ScrollViews-master 1/Lecture 9 - Cassini/oval.jpg"; sourceTree = "<group>"; };
 		EF477407238376B900686586 /* Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF47740A238376B900686586 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF47740F238376B900686586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -26,7 +27,6 @@
 		EF477414238376BB00686586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF477416238376BB00686586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF47741E23837A6000686586 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
-		EF477420238384E100686586 /* oval.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oval.jpg; sourceTree = "<group>"; };
 		EFE855B22388F1620025D58F /* CassiniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassiniViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,9 +64,9 @@
 				EF47740E238376B900686586 /* Main.storyboard */,
 				EFE855B22388F1620025D58F /* CassiniViewController.swift */,
 				EF47741E23837A6000686586 /* ImageViewController.swift */,
-				EF3847732383B3D500A3317C /* DemoURLs.swift */,
-				EF477420238384E100686586 /* oval.jpg */,
+				EF36ADE223A2830100A557E9 /* DemoURLs.swift */,
 				EF477416238376BB00686586 /* Info.plist */,
+				EF36ADE423A2830B00A557E9 /* oval.jpg */,
 			);
 			path = Cassini;
 			sourceTree = "<group>";
@@ -140,7 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF477415238376BB00686586 /* LaunchScreen.storyboard in Resources */,
-				EF477421238384E100686586 /* oval.jpg in Resources */,
+				EF36ADE523A2830B00A557E9 /* oval.jpg in Resources */,
 				EF477412238376BB00686586 /* Assets.xcassets in Resources */,
 				EF477410238376B900686586 /* Main.storyboard in Resources */,
 			);
@@ -153,9 +153,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF36ADE323A2830100A557E9 /* DemoURLs.swift in Sources */,
 				EF47741F23837A6000686586 /* ImageViewController.swift in Sources */,
 				EF47740B238376B900686586 /* AppDelegate.swift in Sources */,
-				EF3847742383B3D500A3317C /* DemoURLs.swift in Sources */,
 				EFE855B32388F1620025D58F /* CassiniViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
